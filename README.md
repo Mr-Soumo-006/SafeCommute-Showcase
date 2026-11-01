@@ -132,7 +132,7 @@ flowchart TD
         H3["24GHz mmWave Radar (Vital Signs & Proximity)"] --> MCU
     end
 
-    MCU -->|BLE 5.0 Beacon (<50ms)| APP["SafeCommute Mobile App"]
+    MCU -->|"BLE 5.0 Beacon (Sub-50ms)"| APP["SafeCommute Mobile App"]
     APP --> SOS["🚨 Instant Multi-Tier SOS, GPS & Audio Relay"]
 
     style H1 fill:#4CAF50,stroke:#2E7D32,color:#fff
